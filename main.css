@@ -1,0 +1,792 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 1920px;
+    height: 3352px;
+    font-size: 14px;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.header_1_1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.soc{
+    display: flex;
+    margin-left: 59px;
+}
+.header_1_2_list{
+    font-size: 16px;
+    margin-left: 60px;
+}
+.header_1_2_list_button_saloni{
+    margin-left: 15px;
+}
+.visual_impared_1{
+
+}
+.header_1_2_list_button_saloni{
+}
+/* Start banner*/
+
+.banner{
+    background-color:#4FBFA5 ;
+    width: 1920px;
+    height: 700px;
+    margin: 0 auto;
+
+}
+.banner_list{
+    display: flex;
+    margin-left: 373px;
+    color: white;
+}
+.banner_list_1{
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.button_banner{
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.banner_img{
+
+}
+.box_title{
+    width: 416px;
+    height: 266px;
+    margin-top: 220px;
+    margin-right: 1192px;
+    color: white;
+    margin-left: 312px;
+
+}
+.title{
+    align-items: center;
+    width: 316px;
+    height: 72px;
+    font-size: 48px;
+    color: white;
+}
+.subtitle{
+    width: 416px;
+    height: 84px;
+    font-size: 14px;
+    color: white;
+}
+.button_podrobnee{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 15px 25px 14px;
+    background: #00868A;
+    width: 163px;
+    height: 50px;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+/* End banner*/
+
+/* Start Informations*/
+
+/* Start Inovations*/
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    width: 526px;
+    height: 580px;
+    margin-top: 80px;
+    margin-left: 312px;
+}
+
+.inovations{
+    width: 526px;
+    height: 580px;
+    background-color: #00868A;
+
+}
+.block_informations_1{
+    display: flex;
+}
+.title_inovations{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+
+
+}
+.name_inovation{
+    font-size: 18px;
+    margin-top: 44px;
+    margin-left: 55px;
+    color: white;
+    background-color: #4FBFA5;
+    padding: 9px 15px 10px;
+    width: 125px;
+    height: 40px;
+
+
+}
+.help_button_text{
+    font-size: 16px;
+    margin-top: 33px;
+    margin-left: 110px;  /*при добавлении кнопки поменять на значение 20 px*/
+    color: white;
+}
+.button_helper{
+
+
+}
+
+.image_inovations{
+
+}
+/* End Inovations*/
+/* Start estetika*/
+.estetika{
+    width: 636px;
+    height: 485px;
+   margin-left: 134px;
+}
+.patent{
+    width: 306px;
+    height: 400px;
+    background: url("../new maket/img/patent.jpg");
+
+}
+.name_estetika{
+    font-size: 18px;
+    width: 186px;
+    height: 40px;
+    padding: 9px 15px 10px;
+    background: #4FBFA5;
+    color: white;
+}
+
+
+.estetika_line_1{
+    display: flex;
+}
+
+.estetika_number_1 {
+    color: #000000;
+    width: 50px;
+    height: 72px;
+    font-size: 48px;
+    margin-top: 30px;
+}
+.estetika_text_1{
+    width: 144px;
+    height: 42px;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.estetika_line_2{
+    display: flex;
+}
+.estetika_number_2 {
+    color: #000000;
+    width: 50px;
+    height: 72px;
+    font-size: 48px;
+    margin-top: 15px;
+}
+.estetika_text_2{
+    width: 144px;
+    height: 42px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.estetika_line_3{
+    display: flex;
+}
+.estetika_number_3{
+    width: 111px;
+    height: 144px;
+    font-size: 96px;
+    color: #00868A;
+    margin-top: 20px;
+}
+.estetika_text_3{
+    width: 319px;
+    height: 84px;
+    font-size: 28px;
+    margin-top: 50px;
+
+}
+
+.estetika_line_4{
+    display: flex;
+}
+.estetika_number_4{
+    width: 50px;
+    height: 72px;
+    font-size: 48px;
+}
+
+.estetika_text_4{
+    width: 144px;
+    height: 42px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* End estetika*/
+/*Start news*/
+.block_informations_2{
+    display: flex;
+}
+.news{
+    width: 526px;
+    height: 504px;
+    margin-top: 80px;
+    background: #4FBFA5;
+}
+.title_news{
+
+    font-size: 18px;
+    margin-top: 44px;
+    margin-left: 55px;
+    color: white;
+    padding: 9px 15px 10px;
+    background: #00868A;
+    width: 101px;
+    height: 40px;
+}
+.news_text_1{
+    margin-top: 75px;
+    margin-left: 0px;
+    font-size: 18px;
+    color: white;
+    background: #00868A;
+    padding: 40px 35px;width: 526px;
+    height: 151px;
+}
+.news_text_2{
+    margin-top: 20px;
+    width: 446px;
+    height: 54px;
+    font-size: 18px;
+    color: white;
+    margin-left: 40px;
+}
+.news_text_3{
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 446px;
+    height: 54px;
+    font-size: 18px;
+    color: white;
+
+}
+.recommendations{
+    width: 1296px;
+    height: 504px;
+    margin-top: 80px;
+}
+.recommendations_title{
+    margin-top: 35px;
+    margin-left: 60px;
+    width: 650px;
+    height: 72px;
+    font-size: 24px;
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+}
+.recommendations_text{
+    width: 629px;
+    height: 294px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    margin-top: 25px;
+    margin-left: 81px;
+}
+/*End news*/
+/* End Informations*/
+
+/* Special_offers*/
+.special_offers {
+    width: 1920px;
+    height: 556px;
+    margin-top: 100px;
+    background: lightgreen;
+    margin-left: -312px;
+
+}
+
+.special_offers_title{
+    margin-top: 80px;
+    margin-left: 607px;
+    width: 705px;
+    height: 72px;
+    font-weight: bold;
+    font-size: 48px;
+    color: #00868A;
+}
+.offer_item_list{
+    flex-wrap: wrap;
+    display: flex;
+    background:lightgray ;
+    width: 1920px;
+    height: 350px;
+}
+
+.offer_item_1 {
+    margin-left: 312px;
+    background: #00868A;
+    width: 306px;
+    height: 343px;
+    margin-top: 61px;
+}
+.sublock_1{
+    width: 306px;
+    height: 230px;
+    background: url("../new maket/img/kosmetologia_1.jpg");
+    position: relative;
+
+}
+.title_kosmotelogia{
+position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background: #4FBFA5;
+    width: 148px;
+    height: 40px;
+    padding: 9px 15px 10px;
+    color: #FFFFFF;
+    top: 20px;
+    left: 20px;
+}
+.subtitle_kosmetologia{
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 181px;
+    height: 64px;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+.offer_item_2 {
+    margin-left: 24px;
+    background: #00868A;
+    width: 306px;
+    height: 343px;
+    margin-top: 61px;
+
+}
+.sublock_2{
+    width: 306px;
+    height: 230px;
+    background: url("../new maket/img/kosmetologia_2.jpg");
+}
+.title_kosmotelogia {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    background: #4FBFA5;
+    width: 148px;
+    height: 40px;
+    padding: 9px 15px 10px;
+    color: #FFFFFF;
+}
+
+
+.offer_item_3 {
+    margin-left: 24px;
+    background: #00868A;
+    width: 306px;
+    height: 343px;
+    margin-top: 61px;
+
+}
+.sublock_3{
+    width: 306px;
+    height: 230px;
+    background: url("../new maket/img/kosmetologia_3.jpg");
+}
+
+
+
+
+.offer_item_4 {
+    margin-left: 24px;
+    background: #00868A;
+    width: 306px;
+    height: 343px;
+    margin-top: 61px;
+
+}
+.sublock_4 {
+    width: 306px;
+    height: 230px;
+    background: url("../new maket/img/kosmetologia_4.jpg");
+}
+
+
+
+
+/* list_uslug start*/
+.list_uslug{
+    display: flex;
+    flex-flow: column wrap;
+    width: 1228px;
+    height: 392px;
+    margin-top: 100px;
+}
+.uslugi_title_1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 66px;
+    height: 32px;
+}
+.text_uslugi_1_1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 20px;
+}
+.text_uslugi_1_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_1_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_1_4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+
+.uslugi_title_2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 66px;
+    height: 32px;
+}
+.text_uslugi_2_1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 20px;
+}
+.text_uslugi_2_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_2_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_2_4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.uslugi_title_3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 66px;
+    height: 32px;
+}
+.text_uslugi_3_1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 20px;
+}
+.text_uslugi_3_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_3_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_3_4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.uslugi_title_4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 66px;
+    height: 32px;
+}
+.text_uslugi_4_1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 20px;
+}
+.text_uslugi_4_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_4_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_4_4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.uslugi_title_5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 66px;
+    height: 32px;
+}
+.text_uslugi_5_1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 20px;
+}
+.text_uslugi_5_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_5_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_5_4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+
+.uslugi_title_6{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 66px;
+    height: 32px;
+}
+.text_uslugi_6_1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 20px;
+}
+.text_uslugi_6_2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_6_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_6_4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 158px;
+    height: 21px;
+    margin-top: 15px;
+}
+.text_uslugi_7_1{
+    width: 54px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.text_uslugi_7_2{
+    width: 172px;
+    height: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.text_uslugi_7_3{
+    width: 38px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 30px;
+}
+.text_uslugi_7_4{
+    width: 238px;
+    height: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 10px;
+
+}
+.text_uslugi_7_5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 25px 14px;
+    width: 164px;
+    height: 45px;
+    background: #00868A;
+    color: white;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+
+.list_uslug_1{
+
+}
+.list_uslug_2{
+margin-top: 30px;
+}
+.list_uslug_3{
+    margin-left: 175px;
+}
+.list_uslug_4{
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.list_uslug_5{
+    margin-left: 175px;
+}
+.list_uslug_6{
+    margin-left: 175px;
+    margin-top: 30px;
+}
+.list_uslug_7{
+    margin-left: 175px;
+}
+
+.list_uslug_8{
+    margin-left: 175px;
+
+}
+.text_uslugi_8_1{
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 30px;
+}
+
+.text_uslugi_8_2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.text_uslugi_8_3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 30px;
+    width: 164px;
+    height: 45px;
+    padding: 15px 25px 14px;
+    background: #00868A;
+    text-transform: uppercase;
+    color: white;
+}
