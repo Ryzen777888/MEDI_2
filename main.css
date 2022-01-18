@@ -6,6 +6,7 @@ body {
     height: 3352px;
     font-size: 14px;
 }
+
 .header_list{
     display: flex;
     align-items: center;
@@ -42,6 +43,7 @@ body {
     height: 700px;
     margin: 0 auto;
 
+
 }
 .banner_list{
     display: flex;
@@ -69,7 +71,6 @@ body {
     height: 266px;
     margin-top: 220px;
     margin-right: 1192px;
-    color: white;
     margin-left: 312px;
 
 }
@@ -97,6 +98,15 @@ body {
     height: 50px;
     text-transform: uppercase;
     margin-top: 55px;
+}
+.devushka{
+    position: absolute;
+    background: url("../MEDI_1/img/Devushka.jpg");
+    width: 746px;
+    height: 533px;
+    margin-left: 900px;
+    margin-top: -450px;
+
 }
 /* End banner*/
 
@@ -146,6 +156,7 @@ body {
     margin-top: 33px;
     margin-left: 110px;  /*при добавлении кнопки поменять на значение 20 px*/
     color: white;
+    text-transform: uppercase;
 }
 .button_helper{
 
@@ -153,7 +164,10 @@ body {
 }
 
 .image_inovations{
-
+    position: absolute;
+    margin-top: 102px;
+    width: 526px;
+    height: 230px;
 }
 /* End Inovations*/
 /* Start estetika*/
@@ -161,11 +175,12 @@ body {
     width: 636px;
     height: 485px;
    margin-left: 134px;
+
 }
 .patent{
-    width: 306px;
-    height: 400px;
-    background: url("../new maket/img/patent.jpg");
+    width:inherit;
+
+    background: url("../MEDI_1/img/patent.jpg");
 
 }
 .name_estetika{
@@ -325,126 +340,92 @@ body {
 /* End Informations*/
 
 /* Special_offers*/
-.special_offers {
+.special_offers{
     width: 1920px;
     height: 556px;
-    margin-top: 100px;
-    background: lightgreen;
     margin-left: -312px;
-
+    margin-top: 100px;
 }
-
-.special_offers_title{
-    margin-top: 80px;
-    margin-left: 607px;
-    width: 705px;
-    height: 72px;
+.title_block{
+  position: static;
+    background: lightgrey;
+    width:inherit;
+    height:60%;
+}
+.title_ac{
+    position: absolute;
+    font-style: normal;
     font-weight: bold;
     font-size: 48px;
+    width: 705px;
+    height: 72px;
+    margin-top: 80px;
+    margin-left:608px ;
     color: #00868A;
 }
-.offer_item_list{
-    flex-wrap: wrap;
+
+.blocks_list_kosmetologia{
     display: flex;
-    background:lightgray ;
-    width: 1920px;
-    height: 350px;
 }
 
-.offer_item_1 {
-    margin-left: 312px;
-    background: #00868A;
+.block_kosmetologia{
+    margin-top: 213px;
     width: 306px;
     height: 343px;
-    margin-top: 61px;
+    background: #00868A;
+    margin-left: 24px;
 }
-.sublock_1{
+.block_kosmetologia:first-child{
+    margin-left: 312px;
+}
+.background_kosmetologia_1{
     width: 306px;
     height: 230px;
-    background: url("../new maket/img/kosmetologia_1.jpg");
-    position: relative;
-
+    background: url("../MEDI_1/img/kosmetologia_1.jpg");
 }
-.title_kosmotelogia{
-position: absolute;
+.background_kosmetologia_2{
+    width: 306px;
+    height: 230px;
+    background: url("../MEDI_1/img/kosmetologia_2.jpg");
+}
+.background_kosmetologia_3{
+    width: 306px;
+    height: 230px;
+    background: url("../MEDI_1/img/kosmetologia_3.jpg");
+}
+.background_kosmetologia_4{
+    width: 306px;
+    height: 230px;
+    background: url("../MEDI_1/img/kosmetologia_4.jpg");
+}
+
+.text_kosmetologia{
+    position: absolute;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    padding: 9px 15px 10px;
+    color: #FFFFFF;
     background: #4FBFA5;
     width: 148px;
     height: 40px;
-    padding: 9px 15px 10px;
-    color: #FFFFFF;
-    top: 20px;
-    left: 20px;
-}
-.subtitle_kosmetologia{
+    margin-top: 31px;
     margin-left: 30px;
-    margin-top: 25px;
+}
+.lineblock_kosmetologia{
+    display: flex;
+}
+.text_lineblock{
+    position: absolute;
     width: 181px;
     height: 64px;
+    font-style: normal;
     font-weight: bold;
     font-size: 21px;
-    color: white;
-}
-.offer_item_2 {
-    margin-left: 24px;
-    background: #00868A;
-    width: 306px;
-    height: 343px;
-    margin-top: 61px;
-
-}
-.sublock_2{
-    width: 306px;
-    height: 230px;
-    background: url("../new maket/img/kosmetologia_2.jpg");
-}
-.title_kosmotelogia {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    background: #4FBFA5;
-    width: 148px;
-    height: 40px;
-    padding: 9px 15px 10px;
     color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 30px;
 }
-
-
-.offer_item_3 {
-    margin-left: 24px;
-    background: #00868A;
-    width: 306px;
-    height: 343px;
-    margin-top: 61px;
-
-}
-.sublock_3{
-    width: 306px;
-    height: 230px;
-    background: url("../new maket/img/kosmetologia_3.jpg");
-}
-
-
-
-
-.offer_item_4 {
-    margin-left: 24px;
-    background: #00868A;
-    width: 306px;
-    height: 343px;
-    margin-top: 61px;
-
-}
-.sublock_4 {
-    width: 306px;
-    height: 230px;
-    background: url("../new maket/img/kosmetologia_4.jpg");
-}
-
-
-
 
 /* list_uslug start*/
 .list_uslug{
@@ -453,340 +434,173 @@ position: absolute;
     width: 1228px;
     height: 392px;
     margin-top: 100px;
+
 }
-.uslugi_title_1{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 66px;
-    height: 32px;
+.pod_list_uslugi{
+    margin-right: 240px;
+margin-top:10px ;
 }
-.text_uslugi_1_1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 20px;
-}
-.text_uslugi_1_2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_1_3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_1_4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
+.pod_list_uslugi:first-child{
+    margin-left:0px;
 }
 
-.uslugi_title_2{
+.title_uslugi{
+    width: 66px;
+    height: 32px;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
-    width: 66px;
-    height: 32px;
+    margin-bottom: 20px;
 }
-.text_uslugi_2_1{
+.text{
+    width: 92px;
+    height: 21px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 20px;
-}
-.text_uslugi_2_2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
     margin-top: 15px;
+    white-space: nowrap;
 }
-.text_uslugi_2_3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_2_4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.uslugi_title_3{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 66px;
-    height: 32px;
-}
-.text_uslugi_3_1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 20px;
-}
-.text_uslugi_3_2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_3_3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_3_4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.uslugi_title_4{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 66px;
-    height: 32px;
-}
-.text_uslugi_4_1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 20px;
-}
-.text_uslugi_4_2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_4_3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_4_4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.uslugi_title_5{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 66px;
-    height: 32px;
-}
-.text_uslugi_5_1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 20px;
-}
-.text_uslugi_5_2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_5_3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_5_4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-
-.uslugi_title_6{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 66px;
-    height: 32px;
-}
-.text_uslugi_6_1{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 20px;
-}
-.text_uslugi_6_2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_6_3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_6_4{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    width: 158px;
-    height: 21px;
-    margin-top: 15px;
-}
-.text_uslugi_7_1{
+.title_telefone{
     width: 54px;
     height: 17px;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
 }
-
-.text_uslugi_7_2{
+.text_telefone{
+    margin-top: 10px;
     width: 172px;
     height: 32px;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
-    margin-top: 10px;
 }
-.text_uslugi_7_3{
+.text_adress{
+    margin-top: 30px;
     width: 38px;
     height: 17px;
     font-style: normal;
     font-weight: 500;
     font-size: 11px;
-    margin-top: 30px;
 }
-.text_uslugi_7_4{
+.text_adress_1{
+    margin-top: 10px;
     width: 238px;
     height: 32px;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
-    margin-top: 10px;
-
 }
-.text_uslugi_7_5{
+.text_adress_2{
+    margin-top: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    padding: 15px 25px 14px;
+    text-transform: uppercase;
     width: 164px;
     height: 45px;
+    padding: 15px 25px 14px;
     background: #00868A;
     color: white;
-    line-height: 16px;
-    text-transform: uppercase;
-    margin-top: 30px;
 }
-
-
-.list_uslug_1{
-
-}
-.list_uslug_2{
-margin-top: 30px;
-}
-.list_uslug_3{
-    margin-left: 175px;
-}
-.list_uslug_4{
-    margin-left: 175px;
-    margin-top: 30px;
-}
-.list_uslug_5{
-    margin-left: 175px;
-}
-.list_uslug_6{
-    margin-left: 175px;
-    margin-top: 30px;
-}
-.list_uslug_7{
-    margin-left: 175px;
-}
-
-.list_uslug_8{
-    margin-left: 175px;
-
-}
-.text_uslugi_8_1{
+.text_adress__{
+    width: 38px;
+    height: 17px;
+    font-style: normal;
     font-weight: 500;
     font-size: 11px;
-    margin-top: 30px;
 }
-
-.text_uslugi_8_2{
+.text_adress__1{
+    margin-top: 10px;
+    width: 149px;
+    height: 32px;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
-    margin-top: 10px;
 }
-.text_uslugi_8_3{
+
+.text_adress__2{
+    margin-top: 30px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    margin-top: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background: #00868A;
     width: 164px;
     height: 45px;
     padding: 15px 25px 14px;
-    background: #00868A;
-    text-transform: uppercase;
-    color: white;
 }
+
+/*start footer*/
+.footer{
+    margin-top: 80px;
+    display: flex;
+    align-content: center;
+
+}
+.footer_list{
+    display: flex;
+    margin-left: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer_1_2_list{
+
+
+
+}
+
+.footer_1_3_list{
+    margin-left: 70px;
+}
+.footer_visual_impared_1{
+    margin-left: 101px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.soc_footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer_soc{
+    margin-left: 56px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/*Responsive start here*/
+@media screen and(max-width: 1200px){
+    .container{
+        width: 1140px;
+    }
+}
+@media screen and(max-width: 1199px){
+    .container{
+        width: 960px;
+    }
+}
+@media screen and(max-width: 991px){
+    .container{
+        width: 720px;
+    }
+}
+@media screen and(max-width: 767px){
+    .container{
+        width: 540px;
+    }
+}
+@media screen and(max-width: 575px){
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+
